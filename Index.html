@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+        <div class="card">
+          <div class="search">
+            <input type="text" placeholder='Enter City Name' spellcheck='false'>
+            <button><box-icon name='search'></box-icon></button>
+          </div>
+          <div class="weather">
+            <img src="Images/snow.png" alt="snow" class="weather-icon">
+            <h1 class="temp">22°F</h1>
+            <h2 class="city">Charlotte</h2>
+            <div class="details">
+              <div class="col">
+                <img src="Images/humidity.png" alt="humidity" class="details-icon">
+                <div>
+                  <p class="humidity">50%</p>
+                  <p>Humidity</p>
+                </div>
+              </div>
+              <div class="col">
+                <img src="Images/wind.png" alt="wind" class="details-icon">
+                <div>
+                  <p class="wind">3MPH</p>
+                  <p>Wind Speed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="/weather.js"></script>
+</body>
+</html>
